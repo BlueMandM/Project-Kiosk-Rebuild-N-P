@@ -52,12 +52,34 @@ public class DayManager : MonoBehaviour
             JsonUtility.FromJson<DayOrderWrapper>(
                 json.text
             );
-
+        
         foreach (var d in wrapper.days)
         {
             DaySchedule schedule =
                 new DaySchedule();
-
+            /*
+            switch (d.day)
+            {
+                case 5:
+                    schedule.day = 1;
+                    break;
+                case 4:
+                    schedule.day = 2;
+                    break;
+                case 3:
+                    schedule.day = 3;
+                    break;
+                case 2:
+                    schedule.day = 4;
+                    break;
+                case 1:
+                    schedule.day = 5;
+                    break;
+                default:
+                    print("Incorrect intelligence level.");
+                    break;
+            }
+            */
             schedule.day = d.day;
 
             schedule.moneyGoal = d.moneyGoal;
