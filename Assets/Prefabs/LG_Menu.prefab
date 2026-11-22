@@ -184,6 +184,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5672402329439436527, guid: ad7cb28e3268061428cdc0618a395348, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0ba06dd42d9c0b441a7683fcaf30da7f, type: 3}
+    - target: {fileID: 5672402329439436527, guid: ad7cb28e3268061428cdc0618a395348, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0ba06dd42d9c0b441a7683fcaf30da7f, type: 3}
     - target: {fileID: 7261170346331468913, guid: ad7cb28e3268061428cdc0618a395348, type: 3}
       propertyPath: m_Name
       value: Level Select
@@ -316,6 +324,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5672402329439436527, guid: ad7cb28e3268061428cdc0618a395348, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b4073f305ea9934448987f6ec2b4b118, type: 3}
+    - target: {fileID: 5672402329439436527, guid: ad7cb28e3268061428cdc0618a395348, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b4073f305ea9934448987f6ec2b4b118, type: 3}
     - target: {fileID: 7261170346331468913, guid: ad7cb28e3268061428cdc0618a395348, type: 3}
       propertyPath: m_Name
       value: Quit
@@ -448,6 +464,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5672402329439436527, guid: ad7cb28e3268061428cdc0618a395348, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 5169254747356214300, guid: 5d6520550971ceb40b765a140a72ef4e, type: 3}
+    - target: {fileID: 5672402329439436527, guid: ad7cb28e3268061428cdc0618a395348, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 5169254747356214300, guid: 5d6520550971ceb40b765a140a72ef4e, type: 3}
     - target: {fileID: 7261170346331468913, guid: ad7cb28e3268061428cdc0618a395348, type: 3}
       propertyPath: m_Name
       value: options
